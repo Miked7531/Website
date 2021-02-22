@@ -7,7 +7,7 @@ html {
 body {
 	margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
 	opacity: 1; /* This and transition affect the page loading fade in effect */
-    transition: 3s opacity; /* This causes a 3 second fade in, you can change this time if you choose */
+    transition: 1s opacity; /* This causes a 3 second fade in, you can change this time if you choose */
 	letter-spacing: .2vw;
 	font-family: Avant Garde, Helvetica; 
 	font-size: 1.5vw;
@@ -44,8 +44,8 @@ body.fade-out {
 	font-size: 20px; /* This specifies the font size for text on our navbar */
 	text-align: center; /* This centers the text within its container */
 	position: relative;
-	-webkit-animation: movenavText 5.75s; /* Safari 4.0 - 8.0 */
-    animation: movenavText 5.75s;
+	-webkit-animation: movenavText .75s; /* Safari 4.0 - 8.0 */
+    animation: movenavText .75s;
 	letter-spacing: .2vw;
 }
 
